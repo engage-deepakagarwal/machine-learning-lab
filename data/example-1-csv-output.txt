@@ -1,0 +1,4 @@
+0,1,2
+Branch A,January 1,500.0
+Branch B,January 2,250.0
+Branch A,January 3,300.0
