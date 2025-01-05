@@ -4,7 +4,7 @@
 | `DataFrame.to_csv(filename.txt)`      | Writes DataFrame to a CSV file. By default, row indices are written. Use `index=False` to exclude them.               | `df.to_csv(filename.txt)`                                                   |
 | `pd.read_json()`                      | Reads a JSON file into a DataFrame.                                            | `import pandas as pd`<br>`df = pd.read_json("data.json")`                   |
 | `DataFrame.to_json(filename.txt)`     | Converts a DataFrame to JSON format and writes it to a file.                   | `df.to_json(filename.txt)`                                                  |
-| `DataFrame1.equals(DataFrame2)`       | Checks if two DataFrames are equal. Requires identical shape, dtypes, and values. | `df1.equals(df2)`                                                           |
+| `DataFrame1.equals(DataFrame2)`       | Checks if two DataFrames are equal. Requires identical shape, dtypes, and values.<br>![](/images/dataframe_equals.png) | `df1.equals(df2)`                                                           |
 | `DataFrame.head()`                    | Shows the first *n* rows of a DataFrame (default = 5).                          | `df.head(3)`  # Shows the first 3 rows                                      |
 | `DataFrame.tail()`                    | Shows the last *n* rows of a DataFrame (default = 5).                           | `df.tail(3)`  # Shows the last 3 rows                                       |
 | `DataFrame.shape`                     | Returns a tuple of (rows, columns).                                             | `rows, cols = df.shape`<br>`rows = df.shape[0]`<br>`cols = df.shape[1]`     |
@@ -25,9 +25,9 @@
 | `DataFrame.astype()`                  | Changes the data type of a column.                                              | `df['Age'] = df['Age'].astype(int)`                                         |
 | `DataFrame.sort_values()`             | Sorts by a specified column(s).                                                 | `df_sorted = df.sort_values(by='Age', ascending=False)`                     |
 | `DataFrame.loc`                       | Label-based row/column selection.                                               | `df_nyc = df.loc[df['City'] == 'NYC', ['Name','Age']]`                      |
-| `DataFrame.iloc`                      | Integer position-based row/column selection.                                    | `df_subset = df.iloc[:5, :2]`                                               |
-| `DataFrame.value_counts()`            | Counts unique values in a column.                                               | `df['City'].value_counts()`                                                |
-| `DataFrame.nunique()`                 | Counts unique values for each column (or overall for a Series).                 | `df.nunique()`                                                             |
+| `DataFrame.iloc`                      | Integer position-based row/column selection.<br>![](/images/loc-vs-iloc.png)                                  | `df_subset = df.iloc[:5, :2]`                                               |
+| `DataFrame.value_counts()`            | Counts unique values in a column.![](/images/value_counts.png)                                               | `df['City'].value_counts()`                                                |
+| `DataFrame.nunique()`                 | Counts unique values for each column (or overall for a Series).<br>![](/images/nunique.png)                 | `df.nunique()`                                                             |
 | `DataFrame.groupby()`                 | Groups data by column(s) for aggregations.                                       | `df.groupby('City')['Age'].mean()`                                         |
 | `DataFrame.agg()`                     | Applies aggregations (e.g., `mean`, `sum`, `count`) on grouped/un-grouped data. | `df.groupby('City').agg({'Age': 'mean', 'Income': 'sum'})`                  |
 | `DataFrame.apply()`                   | Applies a function to each column or row.                                       | `df['Name'] = df['Name'].apply(str.lower)`                                  |
