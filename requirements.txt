@@ -1,0 +1,6 @@
+openai
+transformers
+torch
+huggingface-hub
+dotenv
+huggingface_hub[hf_xet]
