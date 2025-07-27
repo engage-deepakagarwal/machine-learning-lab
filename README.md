@@ -11,6 +11,15 @@ Welcome to the **paper-shelf** branch! This is my dedicated space for:
 - 💡 **Personal Understanding**: Adding my own insights, explanations, and interpretations
 - 🎯 **Learning in Public**: Sharing the journey from paper to practice
 
+## ⚠️ Disclaimer
+
+**This is a learning repository, not production code:**
+
+- Implementations may contain bugs or inefficiencies
+- Code is optimized for learning, not performance
+- Experiments may be incomplete or work-in-progress
+- Some approaches may not follow production best practices
+
 ## 🤝 Community Contributions Welcome!
 
 This is a **learning-in-public** initiative. I encourage:
