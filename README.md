@@ -8,6 +8,15 @@ This repository serves as both a personal learning chronicle and a practical res
 
 **Why This Matters:** Data is everywhere, and the ability to efficiently manipulate, clean, and analyze it is crucial for any data-driven role. This repository provides a structured, practical approach to mastering pandas with working examples and comprehensive documentation.
 
+## ⚠️ Disclaimer
+
+**This is a learning repository, not production code:**
+
+- Implementations may contain bugs or inefficiencies
+- Code is optimized for learning, not performance
+- Experiments may be incomplete or work-in-progress
+- Some approaches may not follow production best practices
+  
 ## 📚 Course Attribution & Learning Foundation
 
 This learning journey is built upon the excellent foundation provided by:
