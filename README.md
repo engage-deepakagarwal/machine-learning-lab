@@ -21,6 +21,15 @@ This repository includes my own:
 - Visual aids and before/after comparisons
 - Performance impact analysis of different preprocessing approaches
 
+## ⚠️ Disclaimer
+
+**This is a learning repository, not production code:**
+
+- Implementations may contain bugs or inefficiencies
+- Code is optimized for learning, not performance
+- Experiments may be incomplete or work-in-progress
+- Some approaches may not follow production best practices
+
 ## 🤝 Community Engagement
 
 **Seeking Collaborators!** This learning journey is enriched through community participation:
