@@ -8,6 +8,15 @@ This repository serves as both a personal learning chronicle and a community res
 
 **Why This Matters:** The AI landscape is evolving rapidly, and practical, documented learning paths are essential for engineers looking to master LLM technologies. This repository provides that structured journey with working code, comprehensive notes, and insights gained through hands-on experimentation.
 
+## ⚠️ Disclaimer
+
+**This is a learning repository, not production code:**
+
+- Implementations may contain bugs or inefficiencies
+- Code is optimized for learning, not performance
+- Experiments may be incomplete or work-in-progress
+- Some approaches may not follow production best practices
+
 ## 🛤️ Learning Pathway
 This is my own follow-through notes and code inspired from the Udemy course [LLM Engineering: Master AI, Large Language Models & Agents](https://www.udemy.com/course/llm-engineering-master-ai-and-large-language-models/) by [Ed Donner](https://www.udemy.com/user/ed-donner-3/)
 
